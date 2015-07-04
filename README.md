@@ -1,10 +1,17 @@
 # slick-startkit
 
-slick 3系の簡単なサンプル(PostgreSQL対応)
+slick 3系を使うための設定とかサンプル.
+
+DBはPostgreSQLの想定.
 
 select, insert, update, deleteをひと通り.
 
+コネクションプーリングにはHikariCPを使用.
 
+## application.conf
+typesafe configを使用.
+
+postgreSQLのユーザ名、パスワードは共に"postgres"
 
 ## DDL
 ```
