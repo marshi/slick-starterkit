@@ -2,9 +2,9 @@ package main.scala
 
 import entity.Tables
 import slick.driver.PostgresDriver.api._
+import scala.concurrent.ExecutionContext.Implicits.global
 
 import scala.concurrent.Await
-import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.duration.Duration
 import scala.util.{Failure, Success}
 
