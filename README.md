@@ -2,6 +2,8 @@
 
 slick 3系を使うための設定とかサンプル.
 
+後述のDDLを実行してローカルでPostgreSQLを動かしている前提.
+
 DBはPostgreSQLの想定.
 
 select, insert, update, deleteをひと通り.
@@ -12,6 +14,9 @@ select, insert, update, deleteをひと通り.
 typesafe configを使用.
 
 postgreSQLのユーザ名、パスワードは共に"postgres"
+
+## CodeGen
+DBのテーブル情報を取得して自動的にテーブルに対応したエンティティのコードを生成してくれる.
 
 ## DDL
 ```
