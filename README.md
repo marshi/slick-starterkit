@@ -1,4 +1,4 @@
-# slick-startkit
+# slick-starterkit
 
 slick 3系を使うための設定とかサンプル.
 
