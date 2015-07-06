@@ -15,8 +15,8 @@ typesafe configを使用.
 
 postgreSQLのユーザ名、パスワードは共に"postgres"
 
-## CodeGen
-DBのテーブル情報を取得して自動的にテーブルに対応したエンティティのコードを生成してくれる.
+## src/main/scala/CodeGen.scala
+実行するとDBのテーブル情報を取得して自動的にテーブルに対応したエンティティのコードを生成してくれる.
 
 ## DDL
 ```
