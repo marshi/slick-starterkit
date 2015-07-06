@@ -1,6 +1,6 @@
 # slick-starterkit
 
-slick 3系を使うための設定とかサンプル.
+slick 3系を使うための設定とかクエリとかのサンプル.
 
 後述のDDLを実行してローカルでPostgreSQLを動かしている前提.
 
